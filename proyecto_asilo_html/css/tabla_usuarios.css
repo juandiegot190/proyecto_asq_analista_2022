@@ -1,0 +1,60 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/** globales**/
+.contenedor{
+   height: 100%;
+   width: 100%;
+   background: url(../img/fondo_logo.png);
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+}
+
+
+
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+    
+}
+
+/**navegacion**/
+.navegacion a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.navegacion a:hover{
+    color:cadetblue;
+
+}
+
+
+tabla{
+    border-collapse: collapse;
+    width: 24%;
+}
+
+th, td{
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even){
+    background: #f2f2f2;
+}
